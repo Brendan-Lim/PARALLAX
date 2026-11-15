@@ -74,8 +74,46 @@
   "baseVerifiedInputSha256": "0b2f154140399c700393d39054ffeb2c6fcd71777602d73383438591e1123239",
   "releaseId": "parallax-public-source-original-visuals.1",
   "verification": {
-    "status": "See PUBLIC_EDITION_VERIFICATION.md for checks actually performed on this edition",
-    "historicalBaseAndHotfixResults": "docs/RELEASE_IDENTITY.md"
+    "checkedSourceCommit": "7ab9c2cc2999da1f2c933baccaa7c29e882ed969",
+    "checkedInputSha256": "2f815a45449f6ee199b32f637ff8399b207f280293c08b644f582406d3edb3a9",
+    "unitPassed": 511,
+    "unitTotal": 511,
+    "browserPassed": 205,
+    "browserSkipped": 0,
+    "browserFlaky": 0,
+    "browserUnexpected": 6,
+    "failedBrowserChecks": [
+      {
+        "file": "phase10.spec.ts",
+        "title": "completed replay without companion recovers at the actual event and requires an updated cutoff"
+      },
+      {
+        "file": "phase9.spec.ts",
+        "title": "guided Back, forward, reload, exit, resume and explicit walkthrough restart preserve evidence"
+      },
+      {
+        "file": "phase9.spec.ts",
+        "title": "guided and unrestricted rendered layouts, keyboard and accessibility at 320px"
+      },
+      {
+        "file": "phase9.spec.ts",
+        "title": "guided and unrestricted rendered layouts, keyboard and accessibility at 390px"
+      },
+      {
+        "file": "phase9.spec.ts",
+        "title": "guided and unrestricted rendered layouts, keyboard and accessibility at 768px"
+      },
+      {
+        "file": "phase9.spec.ts",
+        "title": "guided and unrestricted rendered layouts, keyboard and accessibility at 1440px"
+      }
+    ],
+    "productionFiles": 40,
+    "productionBytes": 1106891,
+    "webpBytes": 290268,
+    "validationDateSGT": "2026-11-16",
+    "fullVerifierPassed": false,
+    "mode": "Public edition static, unit, build, full browser attempt and visual checks; final publication changes documentation and metadata only"
   },
   "edition": "Public portfolio source edition; not byte-identical to the linked live competition build",
   "publication": {

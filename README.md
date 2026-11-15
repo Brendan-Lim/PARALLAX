@@ -86,7 +86,7 @@ The linked live application is **`phase10-e53055a-guide-hotfix.1`**, based on v0
 
 The base candidate passed **511 unit/scenario tests and 211 Chromium workflows**, with zero skipped, flaky or unexpected results. The compact-guide hotfix changed only `MissionGuide.tsx` and `guide.css` and passed **36 relevant unit tests, 8 existing browser regressions, full and short journeys, 10 guide regression groups, and an installed-offline short journey**. The full 511/211 suite was **not rerun on the hotfix**. Publication checks independently matched **all 42 live asset hashes** to the accepted hotfix package and found no expanded-guide axe violations or console/page errors.
 
-**Public source edition:** verification performed on this edition is recorded in [PUBLIC_EDITION_VERIFICATION.md](PUBLIC_EDITION_VERIFICATION.md). The historical counts above are not a new pass on this changed source.
+**Public source edition:** all **511 unit/scenario tests** passed; **205/211 Chromium workflows** passed. The remaining 6 cases time out on older guide-control expectations after the compact-guide change. TypeScript, lint, formatting, production build, offline image loading and desktop/phone visual checks passed. The complete verifier did **not** pass; generated builds remain labelled unverified. See [actual results and known test limitations](PUBLIC_EDITION_VERIFICATION.md).
 
 These are automated software checks, not clinical or human-usability validation (**human evaluation N = 0**). [Candidate binding and verification scope](docs/RELEASE_IDENTITY.md) explains the separate application and publication identities.
 
