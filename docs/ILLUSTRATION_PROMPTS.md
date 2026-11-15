@@ -1,0 +1,15 @@
+# Original illustration prompts
+
+Generated for the public source edition on 16 November 2026 using the built-in OpenAI image-generation tool. No reference images were supplied. These are fictional illustrations, not records of a real mission, device validation or research study. PNG generation outputs were transcoded to WebP for the application; visual content was not otherwise edited.
+
+## exercise-context
+
+Create one original landscape editorial photograph-style digital illustration for an educational astronaut health software portfolio, 3:2 aspect ratio. Subject: an unoccupied compact exercise cycle securely mounted in a fictional deep-space habitat, practical cabin details, small window looking toward a distant rust-red planet. No people, no faces, no human likenesses. Equipment is generic fictional industrial design, not a replica of NASA/ISS equipment. Deep charcoal, soft neutral metal, restrained warm planet light, realistic material detail, tasteful cinematic documentary composition, ample quiet negative space at left for existing website copy. No text, no logos, no agency insignia, no mission patches, no brands, no watermarks, no actual NASA imagery or photographs. It must be an original generated scene; it will be labelled as AI-generated outside the image.
+
+## health-context
+
+Create one original landscape editorial photograph-style digital illustration for an educational astronaut health software portfolio, 3:2 aspect ratio. An unoccupied medical observation station in a fictional deep-space habitat: generic ultrasound-style handheld sensor beside a blank tablet and simple examination bench, neatly stored measurement equipment. No readable charts or invented medical findings. No people or faces. Generic fictional equipment and cabin, not actual NASA/ISS designs. Restrained charcoal and warm grey materials with subtle amber practical lighting, realistic materials, polished documentary still-life composition. No text, no logos, no agency insignia, no patches, no brand names, no watermarks, no actual NASA imagery. Entirely original generated scene; AI-generated label will be supplied by the website.
+
+## exercise-research
+
+Create one original landscape editorial photograph-style digital illustration for an educational astronaut health research page, 3:2 aspect ratio. Still life of generic exercise physiology research equipment in a fictional orbital laboratory: an unoccupied cycle ergometer, a neatly stored oxygen measurement mask and tubing on a bench, a blank small screen. Show plausible generic equipment without claiming an official device or flight-certified protocol. No people, no faces. Dramatic but clear neutral studio-cabin light, dark charcoal background, refined metal texture with warm highlights and plenty of space around the equipment. No text, no logos, no government symbols, no brand names, no NASA/ISS replicas, no watermarks, no actual reference photography. Original generated educational scene; the website will label it as AI-generated.

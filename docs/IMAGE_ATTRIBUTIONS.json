@@ -1,0 +1,66 @@
+{
+  "edition": "Public source original visuals.1",
+  "created_date_sgt": "2026-11-16",
+  "purpose": "Original generated fictional educational scenes, replacing agency photographs in public source",
+  "agencyPhotographsBundled": false,
+  "referencePhotographsUsed": false,
+  "total_image_bytes": 290268,
+  "assets": [
+    {
+      "id": "exercise-context-original",
+      "title": "Unoccupied fictional exercise habitat",
+      "local_file": "web/public/images/exercise-context-original.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 73216,
+      "sha256": "5c0dc065043f62894cdfed5db4d4b8fad850c809cd4178ab7aa3822aca48655c",
+      "source": "Original OpenAI image generation on 2026-11-16; no reference images",
+      "siGenerated": true,
+      "realPeopleDepicted": false,
+      "thirdPartyPhotograph": false,
+      "creditRequirement": "No third-party photographer credit; generated provenance and visible AI label retained",
+      "alterations": "PNG output transcoded to WebP without changing composition",
+      "limitations": "Fictional illustration, not actual mission photography, official equipment or clinical validation"
+    },
+    {
+      "id": "health-context-original",
+      "title": "Unoccupied fictional health observation station",
+      "local_file": "web/public/images/health-context-original.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 77726,
+      "sha256": "68650dca6e3cdfc2496ecf26f5a44495d3c14f921a315c4969970bdd9d90fd24",
+      "source": "Original OpenAI image generation on 2026-11-16; no reference images",
+      "siGenerated": true,
+      "realPeopleDepicted": false,
+      "thirdPartyPhotograph": false,
+      "creditRequirement": "No third-party photographer credit; generated provenance and visible AI label retained",
+      "alterations": "PNG output transcoded to WebP without changing composition",
+      "limitations": "Fictional illustration, not actual mission photography, official equipment or clinical validation"
+    },
+    {
+      "id": "exercise-research-original",
+      "title": "Fictional exercise research equipment",
+      "local_file": "web/public/images/exercise-research-original.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 139326,
+      "sha256": "536df170b8648333f39d3f2b795db905575d41fe4ddfe62cf1b509fc015ed338",
+      "source": "Original OpenAI image generation on 2026-11-16; no reference images",
+      "siGenerated": true,
+      "realPeopleDepicted": false,
+      "thirdPartyPhotograph": false,
+      "creditRequirement": "No third-party photographer credit; generated provenance and visible AI label retained",
+      "alterations": "PNG output transcoded to WebP without changing composition",
+      "limitations": "Fictional illustration, not actual mission photography, official equipment or clinical validation"
+    }
+  ],
+  "promptRecord": "docs/ILLUSTRATION_PROMPTS.md",
+  "rightsNote": "Generated scenes require no third-party photo credits; this does not establish exclusive copyright. Software and scientific-source attribution remain separate."
+}

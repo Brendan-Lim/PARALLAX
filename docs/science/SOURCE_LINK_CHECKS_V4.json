@@ -1,0 +1,382 @@
+{
+  "checked_at_sgt": "2026-11-14T10:47:56.091443+08:00",
+  "scope": "All unique scientific-source URLs in web/src/data/science.ts. NASA/PMC canonical pages and official NTRS API; Europe PMC full text alternate for the same primary papers. HTTP availability and verified content scope recorded separately.",
+  "source_entry_count": 21,
+  "unique_url_count": 19,
+  "checks": [
+    {
+      "canonical_url": "https://www.nasa.gov/directorates/esdmd/hhp/exercise-physiology-and-countermeasures/",
+      "source_ids": [
+        "exercise"
+      ],
+      "status": 200,
+      "final_url": "https://www.nasa.gov/directorates/esdmd/hhp/exercise-physiology-and-countermeasures/",
+      "redirects": [],
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 317777,
+      "title": "Exercise Physiology and Countermeasures - NASA",
+      "content_sha256": "6f86b91a5cec8ac645dd7745214bbce1cb411359140a78d5f8ae15feb5757b2d",
+      "content_available": true,
+      "access_note": "Substantive official page retrieved."
+    },
+    {
+      "canonical_url": "https://www.nasa.gov/ochmo-tb-031-exercise-overview-2/",
+      "source_ids": [
+        "exercise-overview"
+      ],
+      "status": 200,
+      "final_url": "https://www.nasa.gov/ochmo-tb-031-exercise-overview-2/",
+      "redirects": [],
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 442683,
+      "title": "OCHMO-TB-031 Exercise Overview - NASA",
+      "content_sha256": "ca20cc50052763062a3a5e076a99a81f5c266b2bb9aedce6b508e24f6d84d2ba",
+      "content_available": true,
+      "access_note": "Substantive official page retrieved."
+    },
+    {
+      "canonical_url": "https://www.nasa.gov/reference/4-0-human-performance/",
+      "source_ids": [
+        "performance"
+      ],
+      "status": 200,
+      "final_url": "https://www.nasa.gov/reference/4-0-human-performance/",
+      "redirects": [],
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 353832,
+      "title": "4.0 Human Performance - NASA",
+      "content_sha256": "790cfb812a2b8cfd1aabb54e0ad02132917f065e75ce19ae9971002da4e8aa5b",
+      "content_available": true,
+      "access_note": "Substantive official page retrieved."
+    },
+    {
+      "canonical_url": "https://www.nasa.gov/directorates/esdmd/hhp/sensorimotor-risk/",
+      "source_ids": [
+        "sensorimotor-detail"
+      ],
+      "status": 200,
+      "final_url": "https://www.nasa.gov/directorates/esdmd/hhp/sensorimotor-risk/",
+      "redirects": [],
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 305191,
+      "title": "Risk of Altered Sensorimotor/Vestibular Function Impacting Critical Mission Tasks, Human Health, and Long-Term Health (Sensorimotor Risk) - NASA",
+      "content_sha256": "3124272e3b65e420120c7de269cf3f98c404ef40244d05d966e6fcdc869cc959",
+      "content_available": true,
+      "access_note": "Substantive official page retrieved."
+    },
+    {
+      "canonical_url": "https://www.nasa.gov/directorates/esdmd/hhp/aerobic-risk/",
+      "source_ids": [
+        "aerobic"
+      ],
+      "status": 200,
+      "final_url": "https://www.nasa.gov/directorates/esdmd/hhp/aerobic-risk/",
+      "redirects": [],
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 304585,
+      "title": "Risk of Reduced Physical Performance Capabilities Due to Reduced Aerobic Capacity (Aerobic Risk) - NASA",
+      "content_sha256": "285c027a3397a8f4217c2a8f2f82186cb734c2d4d3650d800047782465c22a2c",
+      "content_available": true,
+      "access_note": "Substantive official page retrieved."
+    },
+    {
+      "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6591716/",
+      "source_ids": [
+        "bed-rest"
+      ],
+      "status": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6591716/",
+      "redirects": [],
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 207524,
+      "title": "Overview of the NASA 70-day Bed Rest Study - PMC",
+      "content_sha256": "f5afe428b0ea3c526df56aff401666b275aa6b60f98bf719c1e5341d0e438f70",
+      "content_available": true,
+      "access_note": "Substantive official page retrieved.",
+      "primary_text_alternate": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6591716/fullTextXML",
+        "status": 500,
+        "content_type": "application/json",
+        "bytes": 150,
+        "content_available": false,
+        "note": "Alternate XML returned HTTP 500; canonical PMC article full text was available through direct HTTP and web reader."
+      }
+    },
+    {
+      "canonical_url": "https://www.nasa.gov/hrp/ongoing-hrp-research/",
+      "source_ids": [
+        "ongoing"
+      ],
+      "status": 200,
+      "final_url": "https://www.nasa.gov/hrp/ongoing-hrp-research/",
+      "redirects": [],
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 342426,
+      "title": "Ongoing HRP Research - NASA",
+      "content_sha256": "34a54b58b26b97cbbc6ea96bc48ca872eb30edb8ea8e26f480780a626ed38f6c",
+      "content_available": true,
+      "access_note": "Substantive official page retrieved."
+    },
+    {
+      "canonical_url": "https://www.nasa.gov/hrp/hazards/",
+      "source_ids": [
+        "hazards"
+      ],
+      "status": 200,
+      "final_url": "https://www.nasa.gov/hrp/hazards/",
+      "redirects": [],
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 315822,
+      "title": "5 Hazards of Human Spaceflight - NASA",
+      "content_sha256": "c6be157e466c2e28010f5ffa894ea2b38190b1ab17706cb4f5aedb88035b6f15",
+      "content_available": true,
+      "access_note": "Substantive official page retrieved."
+    },
+    {
+      "canonical_url": "https://www.nasa.gov/hrp/risks/",
+      "source_ids": [
+        "cardiovascular",
+        "fitness",
+        "sensorimotor"
+      ],
+      "status": 200,
+      "final_url": "https://www.nasa.gov/hrp/risks/",
+      "redirects": [],
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 325070,
+      "title": "Risks of Human Spaceflight - NASA",
+      "content_sha256": "ee37546da86894baa6b4d428ed48e4d8b7de09a070c5e120664ec7e79d851136",
+      "content_available": true,
+      "access_note": "Substantive official page retrieved."
+    },
+    {
+      "canonical_url": "https://www.nasa.gov/directorates/esdmd/hhp/risk-to-vehicle-crew-egress-capability-and-task-performance-as-applied-to-earth-and-extraterrestrial-landings/",
+      "source_ids": [
+        "egress"
+      ],
+      "status": 200,
+      "final_url": "https://www.nasa.gov/directorates/esdmd/hhp/risk-to-vehicle-crew-egress-capability-and-task-performance-as-applied-to-earth-and-extraterrestrial-landings/",
+      "redirects": [],
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 307900,
+      "title": "Risk to Vehicle Crew Egress Capability and Task Performance as Applied to Earth and Extraterrestrial Landings - NASA",
+      "content_sha256": "cc12a3a801938d839ab68a9ff7b9b3fa0c0e9767c56e24c61f1e3f847151863d",
+      "content_available": true,
+      "access_note": "Substantive official page retrieved."
+    },
+    {
+      "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6133205/",
+      "source_ids": [
+        "study"
+      ],
+      "status": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6133205/",
+      "redirects": [],
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 298781,
+      "title": "Physiological and Functional Alterations after Spaceflight and Bed Rest - PMC",
+      "content_sha256": "d7b806b3e3dd17f3012a9caeb42c3441e073868d549127a00f5122a38a60963b",
+      "content_available": true,
+      "access_note": "Substantive primary article retrieved through direct HTTP and Europe PMC XML. The separate web-reader request returned a browser-check/reCAPTCHA page, demonstrating method-dependent availability; canonical URL retained.",
+      "primary_text_alternate": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6133205/fullTextXML",
+        "status": 200,
+        "content_type": "application/xml",
+        "bytes": 194834,
+        "title": "Physiological and Functional Alterations after Spaceflight and Bed Rest",
+        "content_sha256": "9c30a4fb1e79caf24cf32d3958fddc23392d0c5357ba1fadfde614962bee402c",
+        "content_available": true,
+        "note": "Same primary publication, full-text XML from Europe PMC. Canonical PMC link remains unchanged."
+      }
+    },
+    {
+      "canonical_url": "https://www.nasa.gov/missions/station/iss-research/astronaut-exercise/",
+      "source_ids": [
+        "cevis"
+      ],
+      "status": 200,
+      "final_url": "https://www.nasa.gov/missions/station/iss-research/astronaut-exercise/",
+      "redirects": [],
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 305743,
+      "title": "Astronaut Exercise - NASA",
+      "content_sha256": "8acd591e479c32f8a1cf198c170e0ecd8f6c0e6b566602649282153ff240dfe2",
+      "content_available": true,
+      "access_note": "Substantive official page retrieved."
+    },
+    {
+      "canonical_url": "https://www.nasa.gov/hrp/hazard-distance-from-earth/",
+      "source_ids": [
+        "distance"
+      ],
+      "status": 200,
+      "final_url": "https://www.nasa.gov/hrp/hazard-distance-from-earth/",
+      "redirects": [],
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 317783,
+      "title": "Hazard: Distance From Earth - NASA",
+      "content_sha256": "b4bf6d30ef0a0887dfa316760e548aba97e9765797b87dd36453987156bff8bd",
+      "content_available": true,
+      "access_note": "Substantive official page retrieved."
+    },
+    {
+      "canonical_url": "https://www.nasa.gov/ochmo/health-and-medical-systems/in-flight-medical-care/",
+      "source_ids": [
+        "medical-care"
+      ],
+      "status": 200,
+      "final_url": "https://www.nasa.gov/ochmo/health-and-medical-systems/in-flight-medical-care/",
+      "redirects": [],
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 384193,
+      "title": "In-Flight Medical Reference Page - NASA",
+      "content_sha256": "390a2276ad3d2535a2be94e216b9f27c806310fbb3d81c478d05c6ff2a7a274c",
+      "content_available": true,
+      "access_note": "Substantive official page retrieved."
+    },
+    {
+      "canonical_url": "https://www.nasa.gov/reference/jsc-exercise-countermeasures/",
+      "source_ids": [
+        "exercise-systems"
+      ],
+      "status": 200,
+      "final_url": "https://www.nasa.gov/reference/jsc-exercise-countermeasures/",
+      "redirects": [],
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 313983,
+      "title": "Exercise Countermeasures - NASA",
+      "content_sha256": "1c10aaf9f054b9db704de9ec7d9261df4453acfb8d5df605402d9e64c0d533d1",
+      "content_available": true,
+      "access_note": "Substantive official page retrieved."
+    },
+    {
+      "canonical_url": "https://www.nasa.gov/reference/6-0-medical-operations/",
+      "source_ids": [
+        "medical-operations"
+      ],
+      "status": 200,
+      "final_url": "https://www.nasa.gov/reference/6-0-medical-operations/",
+      "redirects": [],
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 303646,
+      "title": "6.0 Medical Operations - NASA",
+      "content_sha256": "4dbf91afb13dc9cc4ed74ca600fe2f0ba0be797b56a8430099001492132eb7d8",
+      "content_available": true,
+      "access_note": "Substantive official page retrieved."
+    },
+    {
+      "canonical_url": "https://www.nasa.gov/reference/3-0-health-and-medical-care/",
+      "source_ids": [
+        "health-care"
+      ],
+      "status": 200,
+      "final_url": "https://www.nasa.gov/reference/3-0-health-and-medical-care/",
+      "redirects": [],
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 349231,
+      "title": "3.0 Health and Medical Care - NASA",
+      "content_sha256": "de23d359ef2602c9154abef3a524dce6bb5c4cb4d5dae0740cf05c48b433b341",
+      "content_available": true,
+      "access_note": "Substantive official page retrieved."
+    },
+    {
+      "canonical_url": "https://www.nasa.gov/centers-and-facilities/ames/ames-science/ames-space-biosciences/a-clinical-decision-support-system-for-earth-independent-medical-operations/",
+      "source_ids": [
+        "eimo"
+      ],
+      "status": 200,
+      "final_url": "https://www.nasa.gov/centers-and-facilities/ames/ames-science/ames-space-biosciences/a-clinical-decision-support-system-for-earth-independent-medical-operations/",
+      "redirects": [],
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 288321,
+      "title": "A Clinical Decision Support System for Earth-independent Medical Operations - NASA",
+      "content_sha256": "0f2b2ddbbacf631a73883540a6665f07ffeece1ec0f320c6f932c42ee65007de",
+      "content_available": true,
+      "access_note": "Substantive official page retrieved."
+    },
+    {
+      "canonical_url": "https://ntrs.nasa.gov/citations/20220017856",
+      "source_ids": [
+        "cds-conops"
+      ],
+      "status": 403,
+      "final_url": "https://ntrs.nasa.gov/citations/20220017856",
+      "redirects": [],
+      "content_type": "text/html",
+      "bytes": 146,
+      "title": "403 Forbidden",
+      "content_sha256": "32f2fa940d4b4fe19aca1e53a24e5aac29c57b7c5ee78588325b87f1b649c864",
+      "catalog_api": {
+        "url": "https://ntrs.nasa.gov/api/citations/20220017856",
+        "status": 403,
+        "content_type": "text/html"
+      },
+      "content_available": false,
+      "access_note": "Direct HTTP and NTRS API returned 403. Official catalogue title and abstract were available through the web reader at the same canonical URL. Full report was not downloaded or assessed.",
+      "web_reader_verification": {
+        "canonical_url": "https://ntrs.nasa.gov/citations/20220017856",
+        "content_available": true,
+        "scope": "Catalogue title, abstract and metadata only",
+        "title": "Exploration Medical Capability Clinical Decision Support System Concept of Operations",
+        "publication_date": "2021-03-01",
+        "date_acquired": "2022-11-28",
+        "report_number": "HRP-48033",
+        "rights_display": "Public Use Permitted.",
+        "note": "2022 is the acquisition/catalogue year, not the report publication year."
+      },
+      "content_scope": "Catalogue and abstract verified through web reader; downloadable report contents unverified."
+    }
+  ],
+  "limitations": "A successful HTTP response is not a guarantee of future availability, complete scientific review or independent validation. No private records retrieved. No links changed by this check.",
+  "primary_science_recheck": {
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6133205/",
+    "retrieval": "Europe PMC fullTextXML, same primary paper, sha256 recorded above",
+    "method": "Read Results association paragraph, Discussion functional-task paragraphs, Methods subjects/statistics and Results muscular findings. Exact values and BR-C/BR-Ex labels independently matched to retrievable primary text, then compared to the existing scientific manifest. No raw-data analysis or figure digitisation.",
+    "association_coefficients": {
+      "Dynamic posturography": -0.456,
+      "Tandem walk": -0.428,
+      "Posture-related heart-rate change": 0.398,
+      "Plasma volume": -0.349,
+      "Maximum lower-body power": -0.319,
+      "Maximum lower-body isometric force": -0.305,
+      "Lower-body total work": -0.293
+    },
+    "association_endpoint": "Seat Egress and Walk completion time",
+    "cohorts": {
+      "ISS astronauts": 13,
+      "Bed-rest control": 10,
+      "Bed-rest exercise": 9
+    },
+    "functional_change_in_estimated_median_percent": {
+      "Seat Egress and Walk completion time": {
+        "iss": 31,
+        "control": 38,
+        "exercise": 23
+      },
+      "Recovery from Fall/Stand mean postural sway speed": {
+        "iss": 66,
+        "control": 54,
+        "exercise": 42
+      }
+    },
+    "physiological_finding": "Results report no significant reduction in lower-body maximum isometric force, maximum power or total work in BR-Ex. This does not establish equivalence or preservation.",
+    "method_scope": "Somers D compares within-person session changes across all session pairs. Displayed cohort n is not an exact analysed pair count.",
+    "multiplicity": {
+      "mixed_model_pre_post_tests": 66,
+      "mixed_model_threshold": "P < 0.008",
+      "association_tests": 105,
+      "association_threshold": "P < 0.003",
+      "FDR": "1%"
+    },
+    "verification_result": "All seven coefficients, six functional values, cohort assignments and qualitative muscular distinction match existing values. No science change required.",
+    "limits": "Table 3 is an image in the XML. Recheck used the primary article Results paragraph, which explicitly prints all seven coefficients. No renewed table-image visual cross-check or inaccessible supplement claim is made."
+  },
+  "summary": {
+    "canonical_http_200_substantive": 18,
+    "canonical_direct_http_403": 1,
+    "unique_urls": 19,
+    "broken_canonical_links_confirmed": 0,
+    "access_limitation": "NTRS direct HTTP blocked but catalogue/abstract verified by web reader; PMC web-reader access method varies.",
+    "date_correction_recommended": "NTRS 20220017856 report publication is 2021, catalogue acquisition is 2022."
+  }
+}

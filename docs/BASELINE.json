@@ -1,0 +1,20 @@
+{
+  "version": "0.5.0-rc.1",
+  "status": "Clean local repository baseline derived from guided candidate; pending independent team acceptance. No pivot features.",
+  "accepted_v04_source_sha256": "1fe40ebc38ebac3aee7eb7a68eceb17ca8bcea1073587eace69b051b5f4af79b",
+  "guided_archive_source_sha256": "b80a624060d8634baa104c182b626fbeb5f41e95a09ff518a3fcfc1cb0e8668c",
+  "preparation_input_source_sha256": "e2614ab07845799d4aad8446b0ec0f7f3e7e7a9d1b8404dbcdbe4f954ef72ddc",
+  "historical_hash_algorithm": "Original web/scripts/source-hash.mjs over src, tests, evaluation/science, scripts, images, attribution and selected configs.",
+  "input_discrepancy": "The current tree and guided snapshot matched each other but differed from the guided source ZIP. Existing differences included timestamp literals in cases.ts and six test files, plus an omitted organiser timing detail in SOURCES.md. Both historical versions are preserved separately. Repository preparation did not rewrite these timestamps or authenticate the timing change.",
+  "clean_baseline_changes": "Private/public separation; consolidated documentation with scientific and AI disclosures; safe packaging; isolated generated output; complete public-input source hashing. Application source and substantive tests preserved.",
+  "provenance_boundary": "Historical-work timing, reuse and competition eligibility require review of the complete preserved development records before any submission. No earlier candidate digest identifies this reorganised baseline.",
+  "future_phase": "Mission Health Companion development must begin from the verified clean baseline in a separate branch/workspace; no pivot implementation included.",
+  "publication_note": {
+    "edition": "Public source snapshot with original generated illustrations",
+    "derivedFromPrivateCommit": "9167a79b927ff62af5074128c3c9f7f256ba4371",
+    "historicalFieldsAboveRetained": true,
+    "fullDevelopmentHistoryPreservedPrivately": true,
+    "publicHistoryStartsAtPublication": true,
+    "notByteIdenticalToLiveBuild": true
+  }
+}

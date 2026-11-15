@@ -1,0 +1,149 @@
+.m-guide {
+  position: sticky;
+  top: 64px;
+  z-index: 12;
+  padding: 8px clamp(12px, 2vw, 28px);
+  background: #18252b;
+  border-bottom: 2px solid var(--signal);
+  color: var(--ink);
+}
+.mg-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: 16px;
+}
+.mg-current {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) 80px;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+.mg-step {
+  font-size: 12px;
+  white-space: nowrap;
+  color: var(--muted);
+}
+.m-guide .mg-current h2 {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.3;
+}
+.mg-current progress {
+  width: 100%;
+  height: 6px;
+  accent-color: var(--signal);
+}
+.mg-primary .s-button,
+.m-guide .mg-toggle {
+  min-height: 44px;
+}
+.mg-primary .s-button {
+  font-size: 13px;
+  padding: 8px 14px;
+  text-align: center;
+}
+.m-guide .mg-toggle {
+  border: 1px solid var(--muted);
+  border-radius: 5px;
+  background: transparent;
+  color: inherit;
+  padding: 6px 10px;
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.mg-toggle:focus-visible {
+  outline: 2px solid var(--signal);
+  outline-offset: 3px;
+}
+.mg-expanded:not([hidden]) {
+  margin-top: 8px;
+  padding-top: 12px;
+  border-top: 1px solid var(--muted);
+  max-height: min(45vh, 320px);
+  overflow: auto;
+}
+.m-guide p {
+  margin: 0 0 10px;
+  max-width: 110ch;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.mg-heading,
+.mg-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.mg-heading {
+  justify-content: space-between;
+}
+.mg-heading a,
+.mg-actions .m-text-action {
+  font-size: 13px;
+}
+.mg-progress {
+  font-size: 12px;
+  margin-top: 8px;
+}
+.mg-context {
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+.mg-context summary,
+.mg-progress summary {
+  cursor: pointer;
+}
+.m-experience :is(h1, h2, h3, summary, [id]) {
+  scroll-margin-top: var(--guide-offset, 80px);
+}
+@media (max-width: 760px) {
+  .m-guide {
+    position: relative;
+    top: 0 !important;
+    padding: 8px 12px;
+  }
+  .mg-row {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr) auto;
+    gap: 8px;
+  }
+  .mg-current {
+    display: block;
+  }
+  .mg-step {
+    font-size: 10px;
+  }
+  .m-guide .mg-current h2 {
+    font-size: 13px;
+  }
+  .mg-current progress {
+    display: block;
+    height: 4px;
+    margin-top: 5px;
+  }
+  .mg-primary .s-button {
+    width: 100%;
+    padding: 6px;
+    font-size: 12px;
+    line-height: 1.3;
+  }
+  .m-guide .mg-toggle {
+    max-width: 52px;
+    padding: 5px;
+    font-size: 11px;
+    line-height: 1.3;
+  }
+  .m-guide p {
+    font-size: 12px;
+  }
+}
+@media (max-height: 600px) {
+  .m-guide {
+    position: relative;
+    top: 0 !important;
+  }
+}

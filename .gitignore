@@ -1,0 +1,31 @@
+# Dependencies and generated verification/build artifacts
+**/node_modules/
+web/dist/
+web/test-results/
+web/playwright-report/
+coverage/
+**/coverage/
+web/public/evaluation.txt
+web/public/third-party-notices.txt
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+# Secrets, local state and OS metadata
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.DS_Store
+._*
+*.log
+# Historical/private materials must live outside this repository.
+/audit/
+/private/
+/snapshots/
+/deliverables/
+*.zip
+*.tar
+*.tar.gz

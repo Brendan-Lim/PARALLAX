@@ -1,0 +1,143 @@
+{
+  "id": "clement2024-tandem-table3-v1",
+  "doi": "10.3389/fphys.2024.1442239",
+  "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2024.1442239/full#T3",
+  "locator": "Table 3, Tandem walk rows; Methods/Participants and Methods/Tandem walk",
+  "title": "Effects of intermittent seating upright, lower body negative pressure, and exercise on functional tasks performance after head-down tilt bed rest",
+  "authors": "Clément G, Moudy SC, Macaulay TR, Mulder E and Wood SJ (2024)",
+  "origin": "published-scientific-aggregate",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "extractedOn": "2026-11-14",
+  "population": "47 adults; Earth-based 30-day 6° head-down tilt bed rest at DLR:envihab, SANS-CM.",
+  "groups": [
+    {
+      "id": "Control",
+      "n": 12,
+      "context": "Strict continuous bed rest"
+    },
+    {
+      "id": "Exercise",
+      "n": 12,
+      "context": "60 min aerobic cycle exercise 6 days/week followed by 6 h venous-occlusive thigh cuffs"
+    },
+    {
+      "id": "LBNP",
+      "n": 12,
+      "context": "Daily 2 × 3 h lower body negative pressure at 25 mmHg"
+    },
+    {
+      "id": "Seated",
+      "n": 11,
+      "context": "Daily 2 × 3 h seated upright"
+    }
+  ],
+  "endpoint": "Tandem walking; percentage of correct heel-to-toe steps",
+  "measurement": "10 steps per trial, two trials each with eyes closed/open; video scored by three reviewers using median reviewer assessment per trial.",
+  "unit": "% correct steps",
+  "uncertainty": "Published mean ± SD; SD is not a confidence interval or paired-change uncertainty.",
+  "transformation": "Original numerical transcription; after minus before using rounded published means, rounded to 2 decimal places; percentage points.",
+  "limitations": [
+    "Ground analog group summaries do not predict individual astronaut or Mars outcomes.",
+    "Endpoint-specific paired n and paired-change covariance are not supplied here. No confidence interval is reconstructed.",
+    "The Table 4 tandem label uses time (s); this register follows Table 3 percent and Methods correct-step definition without silently correcting the publication."
+  ],
+  "rows": [
+    {
+      "id": "control-eyes-closed",
+      "group": "Control",
+      "condition": "eyes-closed",
+      "beforeMean": 85.3,
+      "beforeSD": 11.8,
+      "afterMean": 65.6,
+      "afterSD": 17.3,
+      "reportedP": "0.006",
+      "endpointPairedN": null,
+      "differencePercentagePoints": -19.7
+    },
+    {
+      "id": "exercise-eyes-closed",
+      "group": "Exercise",
+      "condition": "eyes-closed",
+      "beforeMean": 83.9,
+      "beforeSD": 15.5,
+      "afterMean": 62.6,
+      "afterSD": 22.7,
+      "reportedP": "0.008",
+      "endpointPairedN": null,
+      "differencePercentagePoints": -21.3
+    },
+    {
+      "id": "lbnp-eyes-closed",
+      "group": "LBNP",
+      "condition": "eyes-closed",
+      "beforeMean": 83.2,
+      "beforeSD": 17.0,
+      "afterMean": 53.3,
+      "afterSD": 16.4,
+      "reportedP": "<0.001",
+      "endpointPairedN": null,
+      "differencePercentagePoints": -29.9
+    },
+    {
+      "id": "seated-eyes-closed",
+      "group": "Seated",
+      "condition": "eyes-closed",
+      "beforeMean": 85.6,
+      "beforeSD": 15.1,
+      "afterMean": 76.8,
+      "afterSD": 10.4,
+      "reportedP": "0.044",
+      "endpointPairedN": null,
+      "differencePercentagePoints": -8.8
+    },
+    {
+      "id": "control-eyes-open",
+      "group": "Control",
+      "condition": "eyes-open",
+      "beforeMean": 99.2,
+      "beforeSD": 1.92,
+      "afterMean": 89.6,
+      "afterSD": 9.0,
+      "reportedP": "0.001",
+      "endpointPairedN": null,
+      "differencePercentagePoints": -9.6
+    },
+    {
+      "id": "exercise-eyes-open",
+      "group": "Exercise",
+      "condition": "eyes-open",
+      "beforeMean": 98.5,
+      "beforeSD": 2.8,
+      "afterMean": 87.9,
+      "afterSD": 11.0,
+      "reportedP": "0.013",
+      "endpointPairedN": null,
+      "differencePercentagePoints": -10.6
+    },
+    {
+      "id": "lbnp-eyes-open",
+      "group": "LBNP",
+      "condition": "eyes-open",
+      "beforeMean": 97.19,
+      "beforeSD": 5.14,
+      "afterMean": 86.3,
+      "afterSD": 13.8,
+      "reportedP": "0.007",
+      "endpointPairedN": null,
+      "differencePercentagePoints": -10.89
+    },
+    {
+      "id": "seated-eyes-open",
+      "group": "Seated",
+      "condition": "eyes-open",
+      "beforeMean": 95.8,
+      "beforeSD": 6.97,
+      "afterMean": 88.2,
+      "afterSD": 10.4,
+      "reportedP": "0.003",
+      "endpointPairedN": null,
+      "differencePercentagePoints": -7.6
+    }
+  ]
+}

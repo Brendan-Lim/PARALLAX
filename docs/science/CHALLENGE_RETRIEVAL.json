@@ -1,0 +1,20 @@
+{
+  "review_date_sgt": "2026-11-14",
+  "retrieval": "Direct primary-page retrieval plus web tool; raw material retained in temporary local research only.",
+  "sha256": {
+    "challenge-decoded.txt": "898ea24f66fcbee776d6e00ef4254e74a6815eac29b3977c325d214fc21c26dd",
+    "captions-alt.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "paper.txt": "ca1307a681e01a122a6a40de046be80b5686865a89528d476b41868ba81bb9a7",
+    "supp2.pdf": "aac5d89d8ce4d5f698cea38fb9be52eb9a714d4edd24466b81743c3078e6c30f",
+    "table8.jpg": "1902991fc8d5966451c1b64689a8641646445a06beb10663a698989ae6fc0806",
+    "table7.jpg": "22772bb6420a04cf815145482212801159025b4e4470d8b6b0bad6807e323cf4",
+    "paperxml.txt": "9c30a4fb1e79caf24cf32d3958fddc23392d0c5357ba1fadfde614962bee402c",
+    "captions.raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "video.txt": "c2e41ad546f90180813423ec662efa822ab5a7238dddfdc5b6526ce5f639e454",
+    "challenge.txt": "77fdda2d281c014b7f47f89686a6a64cf53e2afb2285b6a3f63767f7d1aa3f44",
+    "resources.txt": "c835127b8ec56200c579e9676dee7acae331e6684f3f5c3d5a5f466342604918"
+  },
+  "video": "Public watch page and caption tracks inspected; two timedtext requests returned zero bytes; no transcript or timestamps asserted.",
+  "supplement": "Publisher aggregate supplemental link returned HTTP 403; PMC supplement endpoint served HTML rather than PDF; no estimates or intervals reconstructed.",
+  "ntrs_20250000009": "Page timed out in web tool and public API returned HTTP 403; not used as verified evidence."
+}

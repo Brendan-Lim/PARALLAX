@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "project": "PARALLAX",
+  "version": "0.10.0-alpha.10",
+  "disclosure": "/AI_DISCLOSURE.txt",
+  "siAssisted": true,
+  "tools": [
+    {
+      "name": "OpenAI Codex",
+      "roles": [
+        "code",
+        "tests",
+        "documentation",
+        "fictional data",
+        "release preparation"
+      ]
+    },
+    {
+      "name": "Claude Code",
+      "roles": [
+        "code",
+        "UI review",
+        "documentation",
+        "procedural illustration"
+      ]
+    },
+    {
+      "name": "ChatGPT",
+      "roles": [
+        "research",
+        "concept refinement",
+        "writing"
+      ],
+      "basis": "existing team submission disclosure"
+    }
+  ],
+  "code": {
+    "siGeneratedOrEdited": true,
+    "sourceScopes": [
+      "web/src/",
+      "web/tests/",
+      "web/scripts/"
+    ],
+    "deployedScopes": [
+      "/assets/*.js",
+      "/assets/*.css"
+    ],
+    "originalSoftwareLicense": "Apache-2.0"
+  },
+  "data": {
+    "siAuthoredFictionalExamples": true,
+    "sourceScopes": [
+      "web/src/data/cases.ts",
+      "web/src/data/scenarios.ts",
+      "web/src/mission/observations.ts",
+      "web/src/mission/richEvidence.ts",
+      "web/src/devices/fixtures.ts",
+      "web/src/monitoring/fixture.ts"
+    ],
+    "realParticipantDataIncluded": false,
+    "publishedAggregateFacts": "separately attributed; not SI-authored research results"
+  },
+  "images": {
+    "/images/*-original.webp": "Original AI-generated fictional equipment/habitat illustrations; disclosed in captions and provenance register",
+    "/images/mars-original.svg": "Original SI-assisted procedural illustration",
+    "agencyPhotographsBundled": false,
+    "recognizablePeopleDepicted": false
+  },
+  "runtimeAI": false,
+  "externalAIObservationProcessing": false,
+  "humanEvaluationN": 0,
+  "ideaOriginAndTiming": "not established by this metadata",
+  "baseApplicationCommit": "e53055a2a9e94c6c856696ae7dd9a220bab97cb4",
+  "baseVerifiedInputSha256": "0b2f154140399c700393d39054ffeb2c6fcd71777602d73383438591e1123239",
+  "releaseId": "parallax-public-source-original-visuals.1",
+  "verification": {
+    "status": "See PUBLIC_EDITION_VERIFICATION.md for checks actually performed on this edition",
+    "historicalBaseAndHotfixResults": "docs/RELEASE_IDENTITY.md"
+  },
+  "edition": "Public portfolio source edition; not byte-identical to the linked live competition build",
+  "publication": {
+    "repository": "https://github.com/Brendan-Lim/PARALLAX",
+    "snapshotDerivedFrom": "9167a79b927ff62af5074128c3c9f7f256ba4371",
+    "originalHistoryRetainedPrivately": true,
+    "soleHumanContributor": "Brendan Lim",
+    "contributorConfirmationDateSGT": "2026-11-16",
+    "originalCodeLicense": "Apache-2.0"
+  }
+}

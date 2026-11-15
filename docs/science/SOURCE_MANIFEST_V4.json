@@ -1,0 +1,245 @@
+{
+  "version": "0.4.0",
+  "date_sgt": "2026-11-14",
+  "authoritative_values": [
+    "RESEARCH_VALUES_V3.json",
+    "RESEARCH_VALUES_FINAL.json"
+  ],
+  "image_manifest": "../IMAGE_ATTRIBUTIONS.json",
+  "source_count": 21,
+  "unique_urls": 19,
+  "usage_boundary": "Published aggregate facts and public scientific context. No participant-level records, journal figures or inaccessible report contents.",
+  "sources": [
+    {
+      "id": "exercise",
+      "title": "Exercise Physiology and Countermeasures",
+      "publisher": "NASA Human Health and Performance",
+      "url": "https://www.nasa.gov/directorates/esdmd/hhp/exercise-physiology-and-countermeasures/",
+      "locator": "Staying Fit in Microgravity; Key Areas of Research",
+      "kind": "NASA scientific context",
+      "statement": "NASA develops exercise hardware and protocols to address muscle, bone and cardiovascular deconditioning and support mission task performance.",
+      "boundary": "Education about countermeasures is not an individual exercise prescription.",
+      "category": "NASA risks and educational context"
+    },
+    {
+      "id": "exercise-overview",
+      "title": "Exercise Overview · OCHMO-TB-031",
+      "publisher": "NASA Office of the Chief Health and Medical Officer",
+      "url": "https://www.nasa.gov/ochmo-tb-031-exercise-overview-2/",
+      "locator": "Background; Health Technical Requirements",
+      "kind": "NASA scientific context",
+      "statement": "NASA connects exercise countermeasures to health maintenance and postflight recovery of aerobic capacity and strength.",
+      "boundary": "Existing mission prescriptions require qualified oversight. This prototype assigns no intensity, duration or treatment.",
+      "category": "NASA technical brief"
+    },
+    {
+      "id": "performance",
+      "title": "4.0 Human Performance",
+      "publisher": "NASA Human-Systems Standards",
+      "url": "https://www.nasa.gov/reference/4-0-human-performance/",
+      "locator": "4.1 Aerobic Capacity; 4.2 Sensorimotor; 4.6 Muscle Strength",
+      "kind": "NASA scientific context",
+      "statement": "NASA distinguishes aerobic capacity, sensorimotor capabilities and muscular strength within mission health requirements.",
+      "boundary": "The prototype does not apply these operational standards as individual thresholds or certify fitness for duty.",
+      "category": "NASA human-performance standards"
+    },
+    {
+      "id": "sensorimotor-detail",
+      "title": "Sensorimotor Risk",
+      "publisher": "NASA Human Health and Performance",
+      "url": "https://www.nasa.gov/directorates/esdmd/hhp/sensorimotor-risk/",
+      "locator": "Risk description",
+      "kind": "NASA scientific context",
+      "statement": "Altered gravity can affect postural control, locomotion and fine motor function, particularly around gravity transitions.",
+      "boundary": "Review an authorised assessment; do not initiate unsupervised standing or balance tests from this app.",
+      "category": "NASA risks and educational context"
+    },
+    {
+      "id": "aerobic",
+      "title": "Aerobic Risk",
+      "publisher": "NASA Human Health and Performance",
+      "url": "https://www.nasa.gov/directorates/esdmd/hhp/aerobic-risk/",
+      "locator": "Risk description",
+      "kind": "NASA scientific context",
+      "statement": "NASA relates reduced aerobic capacity to task performance and considers the capabilities of exercise countermeasure systems for exploration.",
+      "boundary": "Neither a heart-rate observation nor recorded plan completion establishes aerobic capacity.",
+      "category": "NASA risks and educational context"
+    },
+    {
+      "id": "bed-rest",
+      "title": "Overview of the NASA 70-day Bed Rest Study",
+      "publisher": "Cromwell et al., 2018",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6591716/",
+      "locator": "Abstract; Table 2; protocol descriptions",
+      "kind": "Published aggregate research",
+      "statement": "The methods overview describes an Earth-based bed-rest campaign and separate pre-, during- and post-bed-rest measurement schedules, including functional and balance assessments.",
+      "boundary": "This overview does not report study outcomes. Its laboratory schedule is not an astronaut monitoring prescription.",
+      "category": "Study design"
+    },
+    {
+      "id": "ongoing",
+      "title": "Ongoing HRP Research",
+      "publisher": "NASA Human Research Program",
+      "url": "https://www.nasa.gov/hrp/ongoing-hrp-research/",
+      "locator": "Research summaries",
+      "kind": "NASA scientific context",
+      "statement": "NASA reports ongoing investigations into how spaceflight affects human health and performance.",
+      "boundary": "An evolving research programme motivates measurement questions, not individual medical conclusions.",
+      "category": "NASA risks and educational context"
+    },
+    {
+      "id": "hazards",
+      "title": "Five Hazards of Human Spaceflight",
+      "publisher": "NASA Human Research Program",
+      "url": "https://www.nasa.gov/hrp/hazards/",
+      "locator": "Gravity Fields; Distance from Earth",
+      "kind": "NASA scientific context",
+      "statement": "Changing gravity requires adaptation across body systems. Distance from Earth can make immediate medical support harder to obtain.",
+      "boundary": "A hazard description identifies a relevant question; it does not establish an individual outcome.",
+      "category": "NASA risks and educational context"
+    },
+    {
+      "id": "cardiovascular",
+      "title": "Risks of Human Spaceflight",
+      "publisher": "NASA Human Research Program",
+      "url": "https://www.nasa.gov/hrp/risks/",
+      "locator": "Risk of Cardiovascular Adaptations",
+      "kind": "NASA scientific context",
+      "statement": "NASA identifies changes in circulation and cardiovascular function in weightlessness as a research concern.",
+      "boundary": "A posture-related HR response is one recorded quantity, not a complete cardiovascular assessment.",
+      "category": "NASA risks and educational context"
+    },
+    {
+      "id": "fitness",
+      "title": "Risks of Human Spaceflight",
+      "publisher": "NASA Human Research Program",
+      "url": "https://www.nasa.gov/hrp/risks/",
+      "locator": "Risk of Reduced Cardiorespiratory and Musculoskeletal Fitness",
+      "kind": "NASA scientific context",
+      "statement": "NASA studies how exercise can protect muscular and cardiorespiratory function and support task performance.",
+      "boundary": "A recorded force change cannot certify overall muscle function, task performance or medical readiness.",
+      "category": "NASA risks and educational context"
+    },
+    {
+      "id": "sensorimotor",
+      "title": "Risks of Human Spaceflight",
+      "publisher": "NASA Human Research Program",
+      "url": "https://www.nasa.gov/hrp/risks/",
+      "locator": "Risk of Altered Sensorimotor and Vestibular Function",
+      "kind": "NASA scientific context",
+      "statement": "NASA identifies gait and coordination difficulties during gravity transitions as relevant to walking and operating vehicles.",
+      "boundary": "A tandem-step observation does not isolate the cause of a change or establish vestibular dysfunction.",
+      "category": "NASA risks and educational context"
+    },
+    {
+      "id": "egress",
+      "title": "Risk to Vehicle Crew Egress Capability and Task Performance",
+      "publisher": "NASA Human Health and Performance",
+      "url": "https://www.nasa.gov/directorates/esdmd/hhp/risk-to-vehicle-crew-egress-capability-and-task-performance-as-applied-to-earth-and-extraterrestrial-landings/",
+      "locator": "Crew egress risk resource",
+      "kind": "NASA scientific context",
+      "statement": "NASA treats post-landing egress capability and task performance as a distinct human spaceflight risk.",
+      "boundary": "The fictional task in this demonstration is not a spacecraft egress assessment.",
+      "category": "NASA risks and educational context"
+    },
+    {
+      "id": "study",
+      "title": "Physiological and Functional Alterations after Spaceflight and Bed Rest",
+      "publisher": "Mulavara et al., 2018 · NASA-associated research",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6133205/",
+      "locator": "Methods; Table 3; relationship-mapping section",
+      "kind": "Published aggregate research",
+      "statement": "The study included 13 ISS astronauts, 10 bed-rest controls and 9 bed-rest exercisers. It reported associations between physiological and functional changes across session pairs.",
+      "boundary": "Published associations are contextual, not personal prediction accuracy or a substitute for missing observations. Bed rest is an analog. No individual research records are included.",
+      "category": "Quantitative published research"
+    },
+    {
+      "id": "cevis",
+      "title": "Astronaut Exercise",
+      "publisher": "NASA ISS Research",
+      "url": "https://www.nasa.gov/missions/station/iss-research/astronaut-exercise/",
+      "locator": "CEVIS equipment paragraph; VO2max investigation; limitations of transfer",
+      "kind": "NASA scientific context",
+      "statement": "CEVIS controls cycling workload and displays cycling speed, heart rate, elapsed time and prescription details. ARED and T2 support other exercise activities.",
+      "boundary": "Equipment feasibility does not validate PARALLAX acquisition labels or comparison protocol. No device or NASA medical-system connection is implemented.",
+      "category": "Equipment documentation"
+    },
+    {
+      "id": "distance",
+      "title": "Hazard: Distance From Earth",
+      "publisher": "NASA HRP",
+      "url": "https://www.nasa.gov/hrp/hazard-distance-from-earth/",
+      "locator": "Communication delays and greater crew self-reliance",
+      "kind": "NASA scientific context",
+      "statement": "Distance can limit timely Earth support. Local records can help prepare a question for qualified review when connectivity is constrained.",
+      "boundary": "The local cached demonstration and export are not mission communications, clinical autonomy or successful delivery.",
+      "category": "NASA risks and educational context"
+    },
+    {
+      "id": "medical-care",
+      "title": "In-Flight Medical Reference Page",
+      "publisher": "NASA OCHMO",
+      "url": "https://www.nasa.gov/ochmo/health-and-medical-systems/in-flight-medical-care/",
+      "locator": "In-flight medical reference materials",
+      "kind": "NASA scientific context",
+      "statement": "Established mission procedures and responsible qualified personnel govern assessment and treatment.",
+      "boundary": "PARALLAX has no validated diagnosis, triage, treatment or emergency-care pathway.",
+      "category": "NASA medical reference"
+    },
+    {
+      "id": "exercise-systems",
+      "title": "Exercise Countermeasures",
+      "publisher": "NASA Johnson Space Center",
+      "url": "https://www.nasa.gov/reference/jsc-exercise-countermeasures/",
+      "locator": "On-orbit systems management; OnePortal",
+      "kind": "NASA scientific context",
+      "statement": "Documents exercise equipment, physiological monitoring and NASA exercise-data systems. It grounds acquisition context for the fictional cycling example.",
+      "boundary": "PARALLAX has no connection to these devices or to OnePortal.",
+      "category": "Equipment and data-system documentation"
+    },
+    {
+      "id": "medical-operations",
+      "title": "6.0 Medical Operations",
+      "publisher": "NASA Human-Systems Standards",
+      "url": "https://www.nasa.gov/reference/6-0-medical-operations/",
+      "locator": "Medical operations requirements",
+      "kind": "NASA scientific context",
+      "statement": "Establishes the role of mission medical operations and qualified oversight in reviewing crew health.",
+      "boundary": "PARALLAX does not apply operational medical standards or provide medical authority.",
+      "category": "NASA medical standards"
+    },
+    {
+      "id": "health-care",
+      "title": "3.0 Health and Medical Care",
+      "publisher": "NASA Human-Systems Standards",
+      "url": "https://www.nasa.gov/reference/3-0-health-and-medical-care/",
+      "locator": "Health and medical care requirements",
+      "kind": "NASA scientific context",
+      "statement": "Places health monitoring within a broader system of crew medical care and responsible personnel.",
+      "boundary": "The prototype supports evidence review, without diagnosis or treatment.",
+      "category": "NASA medical standards"
+    },
+    {
+      "id": "eimo",
+      "title": "A Clinical Decision Support System for Earth-independent Medical Operations",
+      "publisher": "NASA Ames, 2024",
+      "url": "https://www.nasa.gov/centers-and-facilities/ames/ames-science/ames-space-biosciences/a-clinical-decision-support-system-for-earth-independent-medical-operations/",
+      "locator": "Communication delays; ExMC research concept",
+      "kind": "NASA scientific context",
+      "statement": "Explains why deep-space communication delays motivate greater onboard medical capability. PARALLAX explores local evidence review and handoff preparation within this context.",
+      "boundary": "NASA’s proposed clinical decision support system is a separate research effort. PARALLAX does not implement it.",
+      "category": "Earth-independent medical research"
+    },
+    {
+      "id": "cds-conops",
+      "title": "Clinical Decision Support Concept of Operations",
+      "publisher": "NASA NTRS · HRP-48033 (2021)",
+      "url": "https://ntrs.nasa.gov/citations/20220017856",
+      "locator": "Public report catalogue and abstract",
+      "kind": "NASA scientific context",
+      "statement": "Provides research context for clinical decision support during exploration. PARALLAX retains questions for later qualified review.",
+      "boundary": "Catalogue-level context only; no clinical decision support capability or validated system integration is claimed.",
+      "category": "Research concept, catalogue and abstract"
+    }
+  ]
+}
